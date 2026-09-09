@@ -2,7 +2,7 @@
 
 ## LLM
 * Create Virtual Environment
-python –m venv venvPython312x
+  python –m venv venvPython312x
 
 * Activate Virtual Environment
 window : .\venvPython312x\Scripts\activate
