@@ -28,4 +28,5 @@
 * PDF_Summary.py : KSCI_Paper.pdf -> PDF_Paper_summary.txt
 
 ### Chapter_05
-* > pip3 install torch torchvision torchaudio
+> pip3 install torch torchvision torchaudio
+> brew install ffmpeg
