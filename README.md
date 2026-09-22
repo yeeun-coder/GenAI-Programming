@@ -26,3 +26,6 @@
 * PDFfile_Preprocessing.py : KSCI_Paper.pdf -> KSCI_Paper_with_Preprocessing.txt
 * Text_Summary.py : KSCI_Paper_with_Preprocessing.txt -> Paper_summary.txt
 * PDF_Summary.py : KSCI_Paper.pdf -> PDF_Paper_summary.txt
+
+### Chapter_05
+* > pip3 install torch torchvision torchaudio
