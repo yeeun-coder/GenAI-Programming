@@ -30,3 +30,6 @@
 ### Chapter_05
 > pip3 install torch torchvision torchaudio
 > brew install ffmpeg
+* STT_Whisper.ipynb -> STT_Audio_Chunks.csv -> Huggingface_whisper.ipynb
+* TTS_JSON_Speech.ipynb -> LLM_TTS_Sample.mp3
+* LLM_TTS.ipynb -> LLM_TTS_Sample_ash.mp3, LLM_TTS_Sample_nova.mp3
