@@ -36,4 +36,9 @@
 
 ### Chapter_06
 1. Image_description.ipynb
-2. 
+2. Image_Analyzer.ipynb
+3. Image_Quiz.ipynb
+4. Image_Quiz_01.ipynb -> Image_quiz.md
+5. Image_Quiz_Eng.ipynb -> Image_quiz.md
+6. Image_Quiz_EngListening.ipynb -> Image_Quiz_Eng.md
+7. TTS_JSON_Speech.ipynb -> Eng_Listening_1.mp3, Eng_Listening_2.mp3
