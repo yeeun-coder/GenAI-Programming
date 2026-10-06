@@ -47,7 +47,9 @@
 1. GPT_Date_Function.py -> ex) 2026-10-06 13:58:44
 2. GPT_FunctionCall.py
 > User    :  Hi
+> 
 > ChatCompletionMessage(content='Hello! How can I assist you today?', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None, annotations=[])
+> 
 > AI      : Hello! How can I assist you today?
 > User    : 지금 몇 시인지 알려줘!
 > ChatCompletionMessage(content=None, refusal=None, role='assistant', audio=None, function_call=None, tool_calls=[ChatCompletionMessageToolCall(id='call_iKOljOgD9GOUTqK33HzUIK9z', function=Function(arguments='{}', name='get_current_time'), type='function')], annotations=[])
