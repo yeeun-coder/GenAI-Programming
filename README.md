@@ -42,3 +42,15 @@
 5. Image_Quiz_Eng.ipynb -> Image_quiz.md
 6. Image_Quiz_EngListening.ipynb -> Image_Quiz_Eng.md
 7. TTS_JSON_Speech.ipynb -> Eng_Listening_1.mp3, Eng_Listening_2.mp3
+
+### Chapter_07
+1. GPT_Date_Function.py -> ex) 2026-10-06 13:58:44
+2. GPT_FunctionCall.py
+> User    :  Hi
+> ChatCompletionMessage(content='Hello! How can I assist you today?', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None, annotations=[])
+> AI      : Hello! How can I assist you today?
+> User    : 지금 몇 시인지 알려줘!
+> ChatCompletionMessage(content=None, refusal=None, role='assistant', audio=None, function_call=None, tool_calls=[ChatCompletionMessageToolCall(id='call_iKOljOgD9GOUTqK33HzUIK9z', function=Function(arguments='{}', name='get_current_time'), type='function')], annotations=[])
+> 2026-10-06 14:01:52
+> AI      : 현재 시간은 2026년 10월 6일 오후 2시 1분입니다. 
+> User    :  exit
