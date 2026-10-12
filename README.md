@@ -89,3 +89,4 @@
 > - 비슈케크: 2026년 10월 6일 오전 11시 23분
 > 
 > User    : exit
+6. GPT_Streamlit_FunctionCall.py -> 입력: streamlit run "주소.py"
