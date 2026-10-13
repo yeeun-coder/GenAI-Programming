@@ -90,3 +90,14 @@
 > 
 > User    : exit
 6. GPT_Streamlit_FunctionCall.py -> 입력: streamlit run "주소.py"
+
+### Chapter_08
+1. Stock_yfinance.ipynb
+2. GPT_Multiple_Function.py
+> pip install tabulate
+3. STOCK_Streamlit_FunctionCall.py
+> streamlit run STOCK_Streamlit_FunctionCall.py
+
+
+
+
