@@ -1,0 +1,63 @@
+from GPT_Timezone_Function import get_current_time, tools   # GPT_Timezone_Function.py
+from openai import OpenAI
+from dotenv import load_dotenv
+import os
+import json
+
+load_dotenv()
+strOpenAI_API_Key = os.getenv('OPENAI_API_KEY')  # Get API key from .env file  
+
+# Call OpenAI() method
+client = OpenAI(api_key = strOpenAI_API_Key)
+
+# Function to get AI response
+def get_AI_response(strMessages, strTools=None):
+    response = client.chat.completions.create(
+        model="gpt-4o",   
+        messages=strMessages,   
+        tools=strTools,             # Pass available tools
+    )
+    return response
+
+messages = [                        # Starting system message
+    {"role": "system", "content": "너는 User를 도와주는 상담사야."},  
+]
+
+while True:
+    user_input = input("User\t: ")  # User input
+    if user_input == "exit":        # User wants to exit
+        break
+    
+    # User message added to conversation history    
+    messages.append({"role": "user", "content": user_input})  
+
+    AI_response = get_AI_response(messages, tools)
+    AI_message = AI_response.choices[0].message
+    # print(AI_message)                         # AI response for debugging
+
+    tool_calls = AI_message.tool_calls          # AI Response tool_calls
+    if tool_calls:                              # If tool_calls exist
+        for tool_call in tool_calls:
+            tool_name = tool_call.function.name # Extract function name 
+            tool_call_id = tool_call.id         # Tool_call ID    
+            
+            # String -> Dictionary
+            arguments = json.loads(tool_call.function.arguments)  
+
+            if tool_name == "get_current_time":     # tool_name="get_current_time"
+                messages.append({
+                    "role": "function",             # Set role to "function"
+                    "tool_call_id": tool_call_id,
+                    "name": tool_name,
+                    # content=get_current_time() with timezone
+                    "content": get_current_time(timezone=arguments['timezone']),  
+                })
+        # Function execution complete message
+        messages.append({"role": "system", "content": "이제 주어진 결과를 바탕으로 답변한다."})  
+    
+        AI_response = get_AI_response(messages, tools) 
+        AI_message = AI_response.choices[0].message
+
+    messages.append(AI_message)           # Append AI_message to messages
+    print("AI\t: " + AI_message.content)  # Print AI response
+
