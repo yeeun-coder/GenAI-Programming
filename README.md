@@ -105,5 +105,6 @@
 4. LangChain_RunableType.ipynb
 5. LanChain_LCEL.ipynb
 6. LangChain_Pydantic.ipynb
+7. Langchain_Practice_02.ipynb : 귀여운 여인으로 바꾸기
 
 
