@@ -98,6 +98,12 @@
 3. STOCK_Streamlit_FunctionCall.py
 > streamlit run STOCK_Streamlit_FunctionCall.py
 
-
+### Chapter_09
+1. LangChain_Chatbot.ipynb -> 기억 못함
+2. LangChain_MultiTurn.py -> 정보를 넣어도 기억 못함
+3. LangChain_Messagehistory.ipynb -> 각 id별로 각각 기억함
+4. LangChain_RunableType.ipynb
+5. LanChain_LCEL.ipynb
+6. LangChain_Pydantic.ipynb
 
 
