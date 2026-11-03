@@ -119,5 +119,16 @@ https://app.tavily.com/ -> TAVILY_API_KEY 가져오기
 8. LangChain_CustomTool.ipynb
 9. LangChain_AI_Agent.ipynb
 10. LangChain_Pydantic.ipynb
-11. 
+11. LangChain_Tool_Stream.ipynb
+12. LangChain_Chatbot_Streamlit.py
+?? langchain_simple_chat_streamlit.py
+과제 - 1. Langchain_Chatbot_with_Memory.py, 2. LangChain_Chatbot_Streamlit_Tool.py
+
+
+
+
+
+
+
+
 
