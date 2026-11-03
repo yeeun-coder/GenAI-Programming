@@ -107,4 +107,17 @@
 6. LangChain_Pydantic.ipynb
 7. Langchain_Practice_02.ipynb : 귀여운 여인으로 바꾸기
 
+### Chapter_09
+1. Agent_Basic.ipynb
+2. LangChain_Tool.ipynb
+3. LangChain_ToolREPL.ipynb
+https://app.tavily.com/ -> TAVILY_API_KEY 가져오기
+4. LangChain_TavilySearchResult.ipynb
+5. LangChain_TavilySearch.ipynb
+6. LangChain_DallE.ipynb -> 이미지 출력
+7. LangChain_GoogleNewsTool.ipynb
+8. LangChain_CustomTool.ipynb
+9. LangChain_AI_Agent.ipynb
+10. LangChain_Pydantic.ipynb
+11. 
 
