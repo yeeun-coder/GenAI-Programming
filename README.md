@@ -107,7 +107,7 @@
 6. LangChain_Pydantic.ipynb
 7. Langchain_Practice_02.ipynb : 귀여운 여인으로 바꾸기
 
-### Chapter_09
+### Chapter_10
 1. Agent_Basic.ipynb
 2. LangChain_Tool.ipynb
 3. LangChain_ToolREPL.ipynb
@@ -121,8 +121,26 @@ https://app.tavily.com/ -> TAVILY_API_KEY 가져오기
 10. LangChain_Pydantic.ipynb
 11. LangChain_Tool_Stream.ipynb
 12. LangChain_Chatbot_Streamlit.py
+
 ?? langchain_simple_chat_streamlit.py
 과제 - 1. Langchain_Chatbot_with_Memory.py, 2. LangChain_Chatbot_Streamlit_Tool.py
+
+
+### Chapter_11
+연속되게 실행
+1. load_data.py
+2. clean_data.py
+3. prepare_data.py
+4. split_text.py
+5. load_data.py
+6. create_embeddings.py
+7. store_faiss.py
+8. retrieve_faiss.py
+9. generate_answer.py
+10. main.py
+<img width="784" height="437" alt="스크린샷 2026-11-17 오후 2 55 07" src="https://github.com/user-attachments/assets/6af96863-f8df-4289-a0aa-15dc2decf982" />
+
+
 
 
 
