@@ -1,0 +1,12 @@
+[
+    {
+        "No": 1,
+        "Quiz": "Which of the following descriptions of the image is incorrect?\n\n- (1) A boat is floating on the water.\n- (2) Several birds are flying around the boat.\n- (3) The boat is moving on a river.\n- (4) There is a heavy fog.",
+        "imgFile": "Image_Sample.jpg"
+    },
+    {
+        "No": 2,
+        "Quiz": "Which of the following descriptions of the image is incorrect?\n\n- (1) There are several boats docked in a harbor with a lake.\n- (2) Many people are walking around the harbor area.\n- (3) A red flag is visible atop a building.\n- (4) There are tall mountains in the background.",
+        "imgFile": "Image_Sample_01.jpg"
+    }
+]
