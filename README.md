@@ -141,7 +141,16 @@ https://app.tavily.com/ -> TAVILY_API_KEY 가져오기
 <img width="784" height="437" alt="스크린샷 2026-11-17 오후 2 55 07" src="https://github.com/user-attachments/assets/6af96863-f8df-4289-a0aa-15dc2decf982" />
 
 
+### Chapter_12
+1. RAG_Practice_01.ipynb
+2. RAG_Retriever.py
+3. RAG_Chat_Streamlit_01.py
+4. RAG_Chat_Streamlit.py
+<img width="811" height="748" alt="스크린샷 2026-11-24 오후 3 34 14" src="https://github.com/user-attachments/assets/33dcd306-6701-42b3-8a59-926b61fa814d" />
 
+
+### Chapter_13
+1. AI_Agent_DuckDuckGo.ipynb
 
 
 
